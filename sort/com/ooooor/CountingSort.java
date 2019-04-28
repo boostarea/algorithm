@@ -1,9 +1,9 @@
-package main.java.com.ooooor;
+package com.ooooor;
 
 import java.util.Arrays;
 
 /**
- * @description:
+ * @description: 计数排序
  * @author: chenr
  * @date: 19-2-22
  */
