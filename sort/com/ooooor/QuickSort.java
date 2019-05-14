@@ -35,10 +35,11 @@ public class QuickSort {
                     ++i;
                 } else {
                     int tmp = a[i];
-                    a[i++] = a[j];
+                    a[i++] = a[j];  //骚气的++
                     a[j] = tmp;
                 }
             }
+            // 遇到大于的值，j++，i停滞
         }
         int tmp = a[i];
         a[i] = a[r];
