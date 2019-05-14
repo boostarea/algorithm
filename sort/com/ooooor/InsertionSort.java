@@ -3,7 +3,7 @@ package com.ooooor;
 import java.util.Arrays;
 
 /**
- * @Description TODO
+ * @Description 插入排序
  * @Author ooooor
  * @Date 2019-04-28 16:29
  **/
@@ -20,7 +20,7 @@ public class InsertionSort {
             // 查找插入的位置
             for (; j >= 0; --j) {
                 if (a[j] > value) {
-                    a[j+1] = a[j];  // 数据移动
+                    a[j+1] = a[j];  // 数据向后挪动，精妙
                 } else {
                     break;
                 }

@@ -3,7 +3,7 @@ package com.ooooor;
 import java.util.Arrays;
 
 /**
- * @Description TODO
+ * @Description 选择排序，不稳定
  * @Author ooooor
  * @Date 2019-04-28 16:50
  **/
