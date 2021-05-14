@@ -5,16 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>algorithm</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>search</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <modules>
-    <module>search</module>
-    <module>sort</module>
-    <module>tree</module>
-  </modules>
 
-  <name>algorithm</name>
+  <name>search</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 

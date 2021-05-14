@@ -1,4 +1,4 @@
-package main.java.com.ooooor;
+package org.example;
 
 /**
  * @Description 查找第一个值等于给定值的元素
