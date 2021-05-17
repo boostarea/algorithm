@@ -1,4 +1,4 @@
-package org.example.二叉树中序遍历$94;
+package org.example;
 
 /**
  * Definition for a binary tree node.
@@ -11,9 +11,9 @@ public class TreeNode {
     public TreeNode left;
     public TreeNode right;
 
-    TreeNode() {}
+    public TreeNode() {}
 
-    TreeNode(int val) {
+    public TreeNode(int val) {
         this.val = val;
     }
 
@@ -29,5 +29,14 @@ public class TreeNode {
         TreeNode t3 = new TreeNode(3, null, t4);
         TreeNode t2 = new TreeNode(2, t1, t3);
         return t2;
+    }
+
+    @Override
+    public String toString() {
+        return "TreeNode{" +
+                "val=" + val +
+                ", left=" + left +
+                ", right=" + right +
+                '}';
     }
 }
